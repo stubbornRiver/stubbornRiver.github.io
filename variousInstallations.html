@@ -19,31 +19,38 @@
 	 /*border: 1px dashed Grey;
 	 background-color: yellow;*/}
 
- /* .flexC {display: flex;
-	 flex-direction: column;
+  .flexC {display: flex;
+	 /*flex-direction: column;
 	 align-items: stretch;
 	 width:250px;
-	 margin-top: 3;
+	 margin-top: 3;*/
 	 /*background-color: yellow;*/}
-  /*.flexC > li {
-		background-color: Gainsboro;
+  .flexC > li {
+		background-color: Beige;
 		border: 1px solid Grey;
 		padding: 2px;
-		margin:1;} */
+		margin:2px;} 
 	/* Flex Container */
 	/* top right bottom left */
  </style>
 </head>
 <body>
  <h1 style="margin:0;">Free<sup>(!!!)</sup> <a href="http://www.wolfram.com/engine/?source=nav">Wolfram Engine</a></h1>
+  <nav>
+  	<ul class="flexC">
+  		<li><a href="index.html">Home</a></li>
+  		<li><a href="myWolframNotes.html">My Wolfram Notes</a></li>
+  	</ul>
+  </nav>
   <h2>First, Setting up with Jupyter Notebook</h2>
    <ul>
     <li><a href="https://github.com/WolframResearch/WolframLanguageForJupyter/blob/master/README.md">Linking together</a> Jupyter and Wolfram Engine together. Follow their Readme.</li>
     <li>Mathematica <a href="https://mathematica.stackexchange.com/">Stack Exchange</a></li>
+    <li><code>wolfram &lt; test.wl</code></li>
    </ul>
   <h2>Misc Useful Things to Remember</h2>
    <ul>
-    <li>Setting up <a href="https://pages.github.com">personal Github site</a>
+    <li>Setting up <a href="https://pages.github.com">personal Github site</a></li>
      <ul> <!-- class="flexC"-->
       <li><code>git pull origin master</code></li>
       <li><code>git add --all</code></li>
@@ -53,6 +60,9 @@
     </li>
     </br>
     <li>W3Schools <a href="https://www.w3schools.com/html/default.asp">HTML</a></li>
+    	<ul>
+    		<li>&lt; <code>&amp;lt;</code></li>
+    	</ul>
     <li>Connecting rpi (that contains my Mathematica files) to gDrive <a href="https://medium.com/@artur.klauser/mounting-google-drive-on-raspberry-pi-f5002c7095c2">via rclone</a>
      <ul>
      	<li>Note the "<b>:</b>" at the end of the gdrive path!</li>
