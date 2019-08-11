@@ -5,9 +5,17 @@ code {background-color: Gainsboro;
 	 padding: 3px;
 	 line-height: 1.8;}
 	 
-/*li a {
-	display: block;
+.flexC {
+	list-style-type:none;
+	display: flex;
 }
+.flexC > li {
+	display: block;
+	background-color: Beige;
+	border: 1px solid Grey;
+	padding: 2px;
+	margin:2px;
+}/*
 li a:hover {
 	background-color: #555;
 }
