@@ -1,13 +1,14 @@
+<!DOCTYPE html>
 <html lang="en-US">
 <head>
  <title>Notes: Various Installations</title>
  <style>
-  /*code	{background-color: Gainsboro;
+  code	{background-color: Gainsboro;
 	 border: 1px solid Grey;
-	 <!--margin-left: 10px;
+	 /*margin-left: 10px;*/
 	 padding: 3px;
-	 line-height: 2.1;-->
-	 <!--DarkSlateGrey-->}*/
+	 line-height: 1.8;
+	 <!--DarkSlateGrey-->}
 
   ul	{list-style-type:none;
 	 padding: 0 0 5 10;
@@ -18,23 +19,23 @@
 	 /*border: 1px dashed Grey;
 	 background-color: yellow;*/}
 
-  .flexC {display: flex;
+ /* .flexC {display: flex;
 	 flex-direction: column;
 	 align-items: stretch;
-	 width:230px;
+	 width:250px;
 	 margin-top: 3;
 	 /*background-color: yellow;*/}
-  .flexC > li {
+  /*.flexC > li {
 		background-color: Gainsboro;
 		border: 1px solid Grey;
 		padding: 2px;
-		margin:1;} 
+		margin:1;} */
 	/* Flex Container */
 	/* top right bottom left */
  </style>
 </head>
 <body>
- <h1 style="margin:0;">Free(!!!) <a href="http://www.wolfram.com/engine/?source=nav">Wolfram Engine</a></h1>
+ <h1 style="margin:0;">Free<sup>(!!!)</sup> <a href="http://www.wolfram.com/engine/?source=nav">Wolfram Engine</a></h1>
   <h2>First, Setting up with Jupyter Notebook</h2>
    <ul>
     <li><a href="https://github.com/WolframResearch/WolframLanguageForJupyter/blob/master/README.md">Linking together</a> Jupyter and Wolfram Engine together. Follow their Readme.</li>
@@ -43,7 +44,7 @@
   <h2>Misc Useful Things to Remember</h2>
    <ul>
     <li>Setting up <a href="https://pages.github.com">personal Github site</a>
-     <ul class="flexC">
+     <ul> <!-- class="flexC"-->
       <li><code>git pull origin master</code></li>
       <li><code>git add --all</code></li>
       <li><code>git commit -m "Comments here"</code></li>
@@ -52,6 +53,14 @@
     </li>
     </br>
     <li>W3Schools <a href="https://www.w3schools.com/html/default.asp">HTML</a></li>
+    <li>Connecting rpi (that contains my Mathematica files) to gDrive <a href="https://medium.com/@artur.klauser/mounting-google-drive-on-raspberry-pi-f5002c7095c2">via rclone</a>
+     <ul>
+     	<li>Note the "<b>:</b>" at the end of the gdrive path!</li>
+     	<li><code>rclone ls --max-depth 1 gdrive:</code></li>
+     	<li> <br></li>
+     	<li>List of rclone <a href="https://rclone.org/commands/">commands</a></li>
+     	<li><code>rclone copy . gdrive:2019/nbFiles</code></li>
+     </ul></li>
    </ul>
 </body>
 </html>
