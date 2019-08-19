@@ -9,17 +9,18 @@ code {background-color: Gainsboro;
 	list-style-type:none;
 	display: flex;
 }
-.flexC > li {
+.flexC > a {
+	text-decoration:none;
 	display: block;
 	background-color: Beige;
 	border: 1px solid Grey;
-	padding: 2px;
+	padding: 5px;
 	margin:2px;
-}/*
-li a:hover {
+}
+.flexC > a:hover {
 	background-color: #555;
 }
 
-.active {
-	
+a.active {
+	background-color: #555;
 }*/
