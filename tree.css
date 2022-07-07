@@ -21,14 +21,14 @@ ul {
   margin-left:$ident;
 }
 
-ul.a {
-  list-style-type: square;
-  background: #3399ff;
+.a {
+  list-style-type: katakana;
 }
 
 /* This provides the formatting for items in the tree */
 /* ------------------------------------------------   */
 .tree {
+background: #5599ff;
   li {
     list-style-type: none;
     margin:10px 0 10px 10px;
