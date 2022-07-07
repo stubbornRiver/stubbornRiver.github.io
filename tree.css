@@ -30,6 +30,7 @@ ul.a {list-style-type: circle;}
     list-style-type: none;
     margin:10px 0 10px 10px;
     position: relative;
+    /*
     &:before {
       content: "";
       position: absolute;
@@ -53,6 +54,7 @@ ul.a {list-style-type: circle;}
     &:last-child:after {
       display:none;
     }
+    */
     span {
       display:block;
       border: 1px solid $border;
