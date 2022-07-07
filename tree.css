@@ -21,7 +21,10 @@ ul {
   margin-left:$ident;
 }
 
-ul.a {list-style-type: square;}
+ul.a {
+  list-style-type: square;
+  background: #3399ff;
+}
 
 /* This provides the formatting for items in the tree */
 /* ------------------------------------------------   */
