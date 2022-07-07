@@ -1,4 +1,9 @@
 /* */
+$border: #ddd;
+$border-hover: #aaa;
+$bg-hover: #eee;
+$text: #888;
+$text-hover: #000;
 $ident: 20px;
 $left: -($ident);
 
