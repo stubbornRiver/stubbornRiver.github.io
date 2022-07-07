@@ -8,6 +8,15 @@ $ident: 20px;
 $left: -($ident);
 
 /* */
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body {
+  padding:50px;
+  font-family:helvetica, arial,sans-serif;
+}
 ul {
   margin-left:$ident;
 }
