@@ -31,6 +31,15 @@ ul {
 .tree {
 background: #ff9999;
 list-style-type: none;
+    &:before {
+      content: "";
+      position: absolute;
+      top:-10px;
+      left:$left;
+      border-left: 1px solid $border;
+      border-bottom:1px solid $border;
+      width:$ident;
+      height:15px;
   li {
     list-style-type: square;
     margin:10px 0 10px 10px;
