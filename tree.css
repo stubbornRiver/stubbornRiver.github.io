@@ -23,7 +23,7 @@ ul {
 
 /* This provides the formatting for items in the tree */
 /* ------------------------------------------------   */
-.wtree {
+.tree {
   li {
     list-style-type: none;
     margin:10px 0 10px 10px;
