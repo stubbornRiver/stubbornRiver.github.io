@@ -21,6 +21,8 @@ ul {
   margin-left:$ident;
 }
 
+ul.a {list-style-type: circle;}
+
 /* This provides the formatting for items in the tree */
 /* ------------------------------------------------   */
 .tree {
