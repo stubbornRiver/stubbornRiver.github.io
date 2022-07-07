@@ -7,6 +7,11 @@ $text-hover: #000;
 $ident: 20px;
 $left: -($ident);
 
+/* */
+ul {
+  margin-left:$ident;
+}
+
 /* This provides the formatting for items in the tree */
 /* ------------------------------------------------   */
 .wtree {
